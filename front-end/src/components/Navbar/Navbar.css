@@ -1,0 +1,117 @@
+.navbar{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+    color: rgb(38, 158, 227);
+    cursor: pointer;
+}
+.logo{
+    width: 150px;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+   
+}
+.navbar button{
+    background:transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    border-radius: 50px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.navbar button:hover{
+    background-color: rgba(29, 28, 28, 0.829);
+    color: white;
+
+
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid gray;
+    
+}
+
+.navbar-search-icon{
+    position: relative;
+    
+ 
+    
+}
+ .dot{
+    position: absolute;
+    max-height: .5px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 10px;
+    color:transparent;
+    
+    top: -8px;
+    right: -8px;
+
+}
+@media (max-width:1050px){
+    .navbar.logo{
+        width: 140px;
+    }
+    .navbar-menu{
+        gap: 20px;
+        font-size: 10px;
+    }
+    .navbar-right{
+        gap: 30px;
+
+    }
+    .navbar-right img{
+        width: 22px;
+        
+    }
+
+    .navbar-right button{
+        padding: 8px 25px;
+    }
+}
+@media (max-width:900px){
+    .navbar.logo{
+        width: 120px;
+    }
+    .navbar-menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navbar-right{
+        gap: 20px;
+
+    }
+    .navbar-right img{
+        width: 20px;
+        
+    }
+
+    .navbar-right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:750px){
+    
+    .navbar-menu{
+        display: none;
+    }
+    
+
+}
