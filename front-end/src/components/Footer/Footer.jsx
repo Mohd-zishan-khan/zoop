@@ -8,7 +8,8 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-content-left">
                     <img src={assets.logo} alt="" srcset="" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dignissimos atque, ipsa minima corrupti quasi animi quidem tempore officia, ratione doloremque. Consequatur accusantium tempora unde provident itaque veniam fugiat ipsa?</p>
+                    <p>
+                    Zoop delivers delicious meals straight to your door. With a user-friendly interface, quick delivery, and top restaurant options, Zoop ensures a convenient and tasty dining experience every time.</p>
 
                     <div className="footer-social-icons">
                         <img src={assets.facebook_icon} alt="" />

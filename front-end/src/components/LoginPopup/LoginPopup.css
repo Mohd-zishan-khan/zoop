@@ -11,11 +11,12 @@
 .login-popup-container{
     place-self: center;
     width: max(23vw,330px);
-    color: rgb(160, 156, 156);
-    /* background-color: white ;
-     */
-     backdrop-filter: blur(30px);
+    color: black;
+    /* background-color: rgb(156, 150, 150) ; */
+    
+     backdrop-filter: blur(70px);
     display:flex ;
+    
     flex-direction: column;
     gap: 25px ;
     padding: 25px 30px;
